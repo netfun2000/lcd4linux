@@ -6,8 +6,9 @@ Go to http://lcd4linux.bulix.org for all the documentation.
 
 sudo apt-get install python-dev python make autoconf gcc g++ subversion unzip gettext libusb++-dev libtool libtool-bin sdcc pkg-config
 sudo apt-get install libjpeg-dev libgd-dev
+git clone https://github.com/netfun2000/lcd4linux.git
 cd lcd4linux
-chmod -R 755 /usr/src/dpf/lcd4linux
+chmod -R 755 /home/pi/src/lcd4linux
 ./bootstrap
 ./configure
 make
