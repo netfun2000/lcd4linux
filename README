@@ -14,4 +14,3 @@ chmod -R 755 /home/pi/src/lcd4linux
 make
 make install
 
-![Sample SAMSUNG SPF-107H display](https://github.com/netfun2000/lcd4linux/blob/trunk/demo18.jpg "Sample SAMSUNG SPF-107H display")
